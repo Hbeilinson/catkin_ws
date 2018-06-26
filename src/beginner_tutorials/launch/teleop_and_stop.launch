@@ -1,0 +1,8 @@
+<launch>
+
+  <include file = '$(find turtlebot_stage)/launch/turtlebot_in_stage.launch'/>
+  <remap from="cmd_vel_mux/input/teleop" to="my_teleop"/>
+  <include file ='$(find turtlebot_teleop)/launch/keyboard_teleop.launch'/>
+<!--  <node name = "teleop_and_stop" pkg = "beginner_tutorials" type = "teleop_and_stop.py"/> -->
+
+</launch>

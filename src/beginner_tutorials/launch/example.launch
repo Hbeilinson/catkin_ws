@@ -1,0 +1,5 @@
+<launch>
+
+<node name = "stopper" pkg = "beginner_tutorials" type = "example.py" output = "screen"/>
+
+</launch>
