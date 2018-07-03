@@ -1,2 +1,2 @@
-beginner_tutorials
+beginner_tutorials:costmap_turtlebot:simple_layers
 -DCATKIN_DEVEL_PREFIX=/home/hbeilinson/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hbeilinson/catkin_ws/install -G Unix Makefiles

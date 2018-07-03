@@ -1,0 +1,8 @@
+prefix=/home/hbeilinson/catkin_ws/devel
+
+Name: costmap_turtlebot
+Description: Description of costmap_turtlebot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hbeilinson/catkin_ws/devel/lib 
+Requires: 

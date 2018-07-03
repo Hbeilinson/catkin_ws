@@ -1,0 +1,25 @@
+<!--Simple XML For CustomLayer  -->
+<!-- <library path="lib/libcustom_layer">
+  <class type="simple_layer_namespace::CustomLayer" base_class_type="costmap_2d::Layer">
+    <description>Demo Layer that adds a point 1 meter in front of the robot</description>
+  </class>
+</library> -->
+
+<class_libraries>
+  <library path="lib/libcustom_layer">
+		<class type="simple_layer_namespace::CustomLayer" base_class_type="costmap_2d::Layer">
+	    <description>Demo Layer that adds a point 1 meter in front of the robot</description>
+	  </class>
+  </library>
+  <library path="/lib/libgrids_layer">
+    <class type="simple_layer_namespace::GridsLayer" base_class_type="costmap_2d::Layer">
+      <description>Demo Layer that marks all points that were ever one meter in front of the robot as lethal</description>
+    </class>
+  </library>
+	<library path="/lib/libgradient_layer">
+		<class type="simple_layer_namespace::GradientLayer" base_class_type="costmap_2d::Layer">
+			<description>Demo Customizable Grid Layer</description>
+		</class>
+	</library>
+
+</class_libraries>

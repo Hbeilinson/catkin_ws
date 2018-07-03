@@ -118,6 +118,8 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/hbeilinson/catkin_ws/build/gtest/cmake_install.cmake")
   INCLUDE("/home/hbeilinson/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
+  INCLUDE("/home/hbeilinson/catkin_ws/build/costmap_turtlebot/cmake_install.cmake")
+  INCLUDE("/home/hbeilinson/catkin_ws/build/simple_layers/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
